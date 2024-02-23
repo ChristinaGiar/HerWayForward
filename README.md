@@ -1,4 +1,4 @@
-# Women In Tech
+# Her Way Forward
 
 ## General Installation
 * Install [NodeJS] (https://nodejs.org/en/download/) (v18+), globally. This will also install `npm`.

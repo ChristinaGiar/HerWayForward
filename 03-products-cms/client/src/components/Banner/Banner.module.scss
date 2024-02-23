@@ -1,0 +1,24 @@
+.banner {
+    background-color: #212121;
+    color: white;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+
+    &__title {
+        font-size: 1.7rem;
+        padding: 2rem 1.4rem;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 1.81rem;
+            padding: 3rem 2.4rem;
+        }
+    }
+
+    &__image {
+        width: 100%;
+        max-height: 40vh;
+        object-fit: cover;
+    }
+}

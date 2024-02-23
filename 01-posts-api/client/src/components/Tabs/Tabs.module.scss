@@ -1,0 +1,25 @@
+.tabsGroup {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    button {
+        border-radius: 0.25rem;
+        background-color: black;
+        border: none;
+        color: white;
+
+        &:not(.active):hover {
+            background-color: rgba(black, .75);
+            border: none;
+        }
+    }
+
+    button.active {
+        border: none;
+        background-color: #DDD92A;
+        color: black;
+        font-weight: 600;
+    }
+}
