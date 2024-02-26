@@ -79,7 +79,7 @@ router.get('/content', async (req, res) => {
     try {
         const posts = await getPosts();
         const products = await getProducts();
-        const cmsData = await getCmsData(true); // to use mock data add "true" as a parameter
+        const cmsData = await getCmsData(); // to use mock data add "true" as a parameter
         res.status(200).json({ posts: posts, products: products.concat(cmsData.products), banner: cmsData.banner });
     } catch (error) {
         res.status(500).json({ message: "Error fetching data from API", error: error.message });
