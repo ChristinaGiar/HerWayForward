@@ -1,7 +1,7 @@
 # Her Way Forward
 
 ## Clone the repo
-Open a terminal, like Git Bash or CMD and paste the command
+Download the repo: Create a folder, open a terminal inside this folder, like Git Bash or CMD and paste this command
 ```bash
 git clone https://github.com/ChristinaGiar/HerWayForward.git
 ```
@@ -38,7 +38,7 @@ npm start
 ```
 Open browser to `http://localhost:5173/` url.
 
-!!!Press `Ctrl/Cmd + C` to terminate a terminal.
+!!!Press `Ctrl + C` to terminate a terminal.
 
 <br>
 <br>
@@ -52,7 +52,9 @@ Requirements: 3 products should be appeared frontend side.
 >[!NOTE]
 >- The logic is similar to the Posts API
 >- Hit the URL to the browser to check the format of the data
->- No code needs to be written on the frontend, just uncomment the commented section
+>- Code should be written only under “bff/routes/content.js”
+>- No code should be written on the frontend, just uncomment the commented section on “client/src/App.jsx” (remove “{/*”, “*/}”)
+
 
 **Starter project:** `01-posts-api`	**Final project:** `02-products-api`
 
@@ -104,7 +106,8 @@ Select one title and one image from the **“Catalog”** page of CMS [http://lo
 
 >[!NOTE]
 >- Hit the URL to the browser (with “.infinity.json” extension) to check the format of the data
->- No code needs to be written on the frontend, just uncomment the commented section
+>- Code should be written only under “bff/routes/content.js”
+>- No code should be written on the frontend, just uncomment the commented section on “client/src/App.jsx” (remove “{/*”, “*/}”)
 >- In case of issues with the CMS, don’t worry, we got you! :wink:
 >You could use the mocked data we have under `bff/catalog-content.json` and replace the **line 81** of `bff/routes/content.js`:
 >
@@ -138,4 +141,4 @@ npm start
 ```
 Open browser to `http://localhost:5173/` url.
 
-!!!Press `Ctrl/Cmd + C` to terminate a terminal.
+!!!Press `Ctrl + C` to terminate a terminal.
